@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch } from "react-redux";
 import { addTask } from "../redux/tasksSlice";
-
 const AddTodo = () => {
 	const [value, setValue] = useState('');
-
 	const dispatch = useDispatch();
-
 	const onSubmit = (event) => {
 		event.preventDefault();
 
@@ -24,7 +21,7 @@ const AddTodo = () => {
 
 		setValue("");
 	};
-return (
+return ( 
 		<div className="add-todo">
 			<input
 				type="text"
@@ -40,5 +37,4 @@ return (
 		</div>
 	);
 };
-
 export default AddTodo;
