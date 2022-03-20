@@ -1,0 +1,33 @@
+html {
+  background-color: #fdfdfd;
+  color: rgb(66, 17, 17);
+}
+
+section {
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #0a0a0a;
+}
+
+img {
+  width: 300px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.tile {
+  text-align: center;
+  padding: 10px;
+}
